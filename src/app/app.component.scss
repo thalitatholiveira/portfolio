@@ -70,6 +70,7 @@ a {
   margin: auto;
 
   &__items {
+    // position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -82,11 +83,13 @@ a {
     font-weight: 500;
     width: 11em;
     height: 5em;
+    transition: 0.3s;
   }
 
   &__items:hover {
-    background-color: lightgrey;
+    background-color: rgba(211, 211, 211, 0.89);
     cursor: pointer;
+    transform: translateY(-30px);
   }
 
   &__link {

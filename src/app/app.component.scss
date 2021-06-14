@@ -112,4 +112,8 @@ a {
   color: white;
   border-end-start-radius: 40px;
   // border-start-start-radius: 40px;
+
+  &__logo:hover {
+    filter: invert(100%);
+  }
 }

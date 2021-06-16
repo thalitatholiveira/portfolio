@@ -22,9 +22,7 @@ a {
   text-align: justify;
   background-color: black;
   width: 20em;
-  height: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+  height: 100vh;
 
   &__image {
     display: flex;
@@ -34,17 +32,16 @@ a {
     border-radius: 80px;
     width: 9.5em;
     height: 9.5em;
+    margin: 1em;
   }
 
   &__title {
-    margin-top: 1em;
     text-align: center;
     text-transform: uppercase;
     color: white;
   }
 
   &__subtitle {
-    margin-bottom: 1em;
     text-align: center;
     font-size: .9em;
     font-weight: 500;
@@ -53,8 +50,9 @@ a {
   }
 
   &__about {
-    margin: .5em;
+    margin: 1em;
     color: whitesmoke;
+    text-align: justify;
   }
 }
 
@@ -116,5 +114,29 @@ a {
 
   &__logo:hover {
     filter: invert(100%);
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    min-height: 100%;
+    min-height: -webkit-fill-available;
+  }
+
+  .header {
+    width: 100vw;
+    height: auto;
+  }
+
+  .contact {
+    position: relative;
+    right: 0;
+    top: auto;
+    bottom: 0;
+    text-align: center;
+    width: 100vw;
+    padding: 0;
+    border-end-start-radius: 0;
   }
 }

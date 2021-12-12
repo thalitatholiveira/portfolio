@@ -10,8 +10,9 @@ a {
   flex-direction: row;
   align-items: center;
   font-family: 'Montserrat', sans-serif;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  background-color: blueviolet;
 }
 
 .header {
@@ -20,8 +21,8 @@ a {
   justify-content: center;
   align-items: center;
   text-align: justify;
-  background-color: black;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
   width: 20em;
   height: 100vh;
 
@@ -53,8 +54,8 @@ a {
     font-size: .7em;
     font-weight: 600;
     text-transform: uppercase;
-    background-color: white;
-    color: black;
+    background-color: #361258;
+    color: rgb(255, 255, 255);
     padding: 5px;
     width: 100%;
   }
@@ -64,7 +65,7 @@ a {
     line-height: 20px;
     text-align: justify;
     font-size: .9em;
-    font-family: 'Merriweather', serif;
+    // font-family: 'Merriweather', serif;
   }
 }
 
@@ -77,6 +78,7 @@ a {
   margin: auto;
 
   &__items {
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -113,7 +115,7 @@ a {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  background-color: rgb(0, 0, 0);
+  background-color: #361258;
   width: auto;
   height: auto;
   padding-left: 10px;

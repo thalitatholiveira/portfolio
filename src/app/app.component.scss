@@ -39,6 +39,7 @@ a {
   &__image {
     text-align: center;
     background-color: rgb(255, 255, 255);
+    margin-top: 1em;
   }
 
   &__title {
@@ -82,7 +83,7 @@ a {
     align-items: center;
     text-align: center;
     padding: .5em;
-    margin: 1em;
+    margin: 1em 1em 0em 1em;
     border-radius: 5px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.205);
     border: 1px solid rgba(0, 0, 0, 0.425);
@@ -153,6 +154,7 @@ a {
     text-align: center;
     width: 100vw;
     padding: 0;
+    margin-top: 1em;
     border-end-start-radius: 0;
   }
 }
